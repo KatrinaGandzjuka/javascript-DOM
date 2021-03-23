@@ -1,9 +1,9 @@
 // Your JavaScript goes here.
 window.addEventListener("load", function(){
-    const button = document.getElementById("toggle_button");
-    const leable = document.querySelectorAll('.second_five li');
-    button.addEventListener('click', function(){
-        leable.forEach((elements) => {
+    const BUTTON = document.getElementById("toggle_button");
+    const LEABLE = document.querySelectorAll('.second_five li');
+    BUTTON.addEventListener('click', function(){
+        LEABLE.forEach((elements) => { 
             if(elements.style.display == 'list-item') {
                 elements.style.display = 'none'
             } else {
@@ -12,3 +12,5 @@ window.addEventListener("load", function(){
         });
     });
 });
+
+//forEach(function(toggle){})

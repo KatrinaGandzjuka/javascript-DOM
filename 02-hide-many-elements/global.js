@@ -1,9 +1,9 @@
 window.addEventListener('load', function(){
-    const hide = document.getElementsByClassName("hide_me");
-    const Button = document.getElementById("button");
+    const HIDE = document.getElementsByClassName("hide_me");
+    const BUTTON = document.getElementById("button");
 
-    Button.addEventListener('click', function(){
-        Array.from(hide).forEach((elements) => {
+    BUTTON.addEventListener('click', function(){
+        Array.from(HIDE).forEach((elements) => {
             elements.style.display = "none";
         })
     });

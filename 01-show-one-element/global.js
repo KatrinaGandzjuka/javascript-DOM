@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function(){
-  const Link = document.getElementById('more_text_link');
-  const Text = document.getElementById('more_text_content');
+  const LINK = document.getElementById('more_text_link');
+  const TEXT = document.getElementById('more_text_content');
 
-  Link.addEventListener('click', function(){
-    Text.style.display = 'initial';
-    Link.style.display = 'none';
+  LINK.addEventListener('click', function(){
+    TEXT.style.display = 'initial';
+    LINK.style.display = 'none';
   });
 });
 
